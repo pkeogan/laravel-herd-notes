@@ -48,5 +48,3 @@ $path = 'folder\\subfolder\\file.txt'; // This will work on Windows but not on L
 $path = 'folder' . DIRECTORY_SEPARATOR . 'subfolder' . DIRECTORY_SEPARATOR . 'file.txt'; // This works on both Linux and Windows
 ```
 By using DIRECTORY_SEPARATOR, your code will adapt to the correct directory separator for the operating system it’s running on.
-
-You can now copy and paste this directly into your markdown file.
